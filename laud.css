@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-color: black;
+    
+
+}
+
+.navbar-nav{
+    margin-left: 100px;
+}
+
+.navbar-nav li{
+    
+     padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: white !important;
+    
+    
+}
+
+.navbar-toggler svg{
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link{
+    border: 2px solid transparent;
+    font-weight: bold;
+    
+}
+
+.nav-link:hover{
+    border-bottom:2px solid white;
+    transition: .1s;
+}
+
+#home{
+    background-color: black;
+    color: white;
+    height: 100vh;
+   
+}
+
+#home h1{
+    margin-top: 250px;
+    font-size: 75px;
+}
+#home p{
+    font-size: 20px;
+}
+
+#about h3{
+    margin-top: 100px;
+}
+
+#about img{
+    margin-top: 110px;
+}
+
+#about a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:larger;
+    padding: 10px;
+    margin: 10px;
+}
+
+#achivements h3{
+    font-size: large;
+    font-weight: 600;
+    position: relative;
+
+}
+
+#achivements .parts{
+    border: 1px solid black;
+    margin: 40px;
+  
+}
+
+.parts p{
+    text-align: left;
+}
+
+.parts h3{
+    font-weight: 600;
+}
+
+#achivements .finish{
+    padding-top: 50px;
+    padding-left: 85px;
+    background-color: black;
+    color: white;
+    height: 42vh;
+}
